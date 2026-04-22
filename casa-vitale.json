@@ -1,0 +1,261 @@
+{
+  "$schema": "https://schemas.anthropic.com/claude-design/design-tokens-v1.json",
+  "brand": {
+    "name": "Casa Vitale",
+    "tagline": "Ambulanter Pflegedienst — Schwarzwald-Baar-Kreis",
+    "personality": ["warmherzig", "verlässlich", "professionell", "medizinisch-fachlich"],
+    "tone": "Sie-Form, deutsch, respektvoll, klar",
+    "industry": "Healthcare / Ambulante Pflege"
+  },
+
+  "colors": {
+    "primary": {
+      "base": "#0091cd",
+      "name": "Pacific Blue",
+      "shades": {
+        "dark": "#0074a4",
+        "darker": "#003a52",
+        "darkest": "#002b3d"
+      }
+    },
+    "secondary": {
+      "base": "#004360",
+      "name": "Astronaut Blue",
+      "dark": "#00354c"
+    },
+    "accent": {
+      "base": "#e21c21",
+      "name": "Alizarin Crimson",
+      "usage": "CTA, Buttons, Wichtige Hinweise"
+    },
+    "text": {
+      "primary": "#00070a",
+      "secondary": "#4c5153"
+    },
+    "neutral": {
+      "light": "#f2f2f2",
+      "white": "#ffffff"
+    }
+  },
+
+  "colorSchemes": [
+    {
+      "id": 1,
+      "name": "Weiß",
+      "background": "#ffffff",
+      "foreground": "#00070a",
+      "accent": "#0091cd",
+      "accentHover": "#0074a4",
+      "tagline": "#0074a4",
+      "muted": "rgba(0,7,10,0.6)"
+    },
+    {
+      "id": 2,
+      "name": "Grau",
+      "background": "#f2f2f2",
+      "foreground": "#00070a",
+      "accent": "#0091cd",
+      "accentHover": "#0074a4",
+      "tagline": "#0074a4",
+      "muted": "rgba(0,7,10,0.6)"
+    },
+    {
+      "id": 3,
+      "name": "Blau hell",
+      "background": "#e5f4fa",
+      "foreground": "#00070a",
+      "accent": "#0091cd",
+      "accentHover": "#0074a4",
+      "tagline": "#0074a4",
+      "muted": "rgba(0,7,10,0.6)"
+    },
+    {
+      "id": 4,
+      "name": "Dunkel",
+      "background": "#00354c",
+      "foreground": "#ffffff",
+      "accent": "#ffffff",
+      "accentHover": "#e0e0e0",
+      "tagline": "#7dd3fc",
+      "muted": "rgba(255,255,255,0.7)"
+    },
+    {
+      "id": 5,
+      "name": "Sehr dunkel",
+      "background": "#002b3d",
+      "foreground": "#ffffff",
+      "accent": "#ffffff",
+      "accentHover": "#e0e0e0",
+      "tagline": "#7dd3fc",
+      "muted": "rgba(255,255,255,0.7)"
+    }
+  ],
+
+  "typography": {
+    "fontFamily": {
+      "body": "Poppins",
+      "heading": "Poppins",
+      "source": "Google Fonts"
+    },
+    "weights": {
+      "heading": 500,
+      "body": 400,
+      "strong": 600
+    },
+    "scale": {
+      "h1": { "size": "72px", "lineHeight": "1.2", "letterSpacing": "-0.72px", "weight": 500 },
+      "h2": { "size": "48px", "lineHeight": "1.2", "letterSpacing": "-0.48px", "weight": 500 },
+      "h3": { "size": "36px", "lineHeight": "1.3", "letterSpacing": "-0.36px", "weight": 500 },
+      "h4": { "size": "28px", "lineHeight": "1.4", "letterSpacing": "-0.28px", "weight": 500 },
+      "h5": { "size": "20px", "lineHeight": "1.4", "weight": 500 },
+      "textLarge": { "size": "18px", "lineHeight": "1.5", "weight": 400 },
+      "textRegular": { "size": "16px", "lineHeight": "1.5", "weight": 400 },
+      "textSmall": { "size": "14px", "lineHeight": "1.5", "weight": 400 }
+    }
+  },
+
+  "spacing": {
+    "sectionPaddingY": "80px",
+    "containerMaxWidth": "1280px",
+    "pagePaddingX": {
+      "desktop": "80px",
+      "tablet": "40px",
+      "mobile": "20px"
+    },
+    "elementGap": {
+      "xs": "8px",
+      "sm": "12px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px"
+    }
+  },
+
+  "borders": {
+    "radius": {
+      "small": "6px",
+      "medium": "8px",
+      "large": "12px",
+      "pill": "9999px"
+    },
+    "width": {
+      "default": "1px",
+      "strong": "2px"
+    }
+  },
+
+  "shadows": {
+    "card": "0 2px 8px rgba(0, 7, 10, 0.06)",
+    "elevated": "0 4px 12px rgba(0, 7, 10, 0.10)",
+    "hover": "0 8px 24px rgba(0, 7, 10, 0.12)"
+  },
+
+  "components": {
+    "button": {
+      "height": "48px",
+      "paddingX": "24px",
+      "borderRadius": "6px",
+      "fontWeight": 500,
+      "fontSize": "16px",
+      "variants": {
+        "primary": {
+          "background": "#0091cd",
+          "color": "#ffffff",
+          "hoverBackground": "#0074a4"
+        },
+        "secondary": {
+          "background": "#004360",
+          "color": "#ffffff",
+          "hoverBackground": "#002b3d"
+        },
+        "outline": {
+          "background": "transparent",
+          "color": "#0091cd",
+          "border": "2px solid #0091cd",
+          "hoverBackground": "#0091cd",
+          "hoverColor": "#ffffff"
+        },
+        "ghost": {
+          "background": "transparent",
+          "color": "#0091cd",
+          "hoverTextDecoration": "underline"
+        }
+      }
+    },
+    "card": {
+      "background": "#ffffff",
+      "borderRadius": "12px",
+      "padding": "24px",
+      "shadow": "0 2px 8px rgba(0, 7, 10, 0.06)",
+      "imageAspectRatio": "335/176"
+    }
+  },
+
+  "sectionTypes": [
+    {
+      "id": "navbar",
+      "description": "Navigation mit Logo und Links, sticky",
+      "defaultScheme": 5,
+      "height": "64px"
+    },
+    {
+      "id": "hero",
+      "description": "Intro mit großer Headline, Body und 1-2 CTAs",
+      "defaultScheme": 4,
+      "minHeight": "600px",
+      "layout": "Text links max 560px, zentriert vertikal"
+    },
+    {
+      "id": "cards-grid",
+      "description": "Grid mit 2-4 Karten",
+      "defaultScheme": 1,
+      "grid": { "desktop": 4, "tablet": 2, "mobile": 1, "gap": "32px" }
+    },
+    {
+      "id": "testimonials",
+      "description": "Kundenstimmen mit Slider",
+      "defaultScheme": 1,
+      "layout": "3 sichtbare Karten, Prev/Next/Dots"
+    },
+    {
+      "id": "content-image",
+      "description": "Text + Bild nebeneinander",
+      "defaultScheme": 3,
+      "layout": "2-spaltig, Text max 560px"
+    },
+    {
+      "id": "faq",
+      "description": "Accordion-Fragen",
+      "defaultScheme": 1,
+      "layout": "Container max 860px zentriert"
+    },
+    {
+      "id": "contact",
+      "description": "Kontakt-Info + Karte",
+      "defaultScheme": 3,
+      "layout": "2-spaltig"
+    },
+    {
+      "id": "footer",
+      "description": "Newsletter, Links, Credits",
+      "defaultScheme": 5,
+      "layout": "4-6 Spalten"
+    }
+  ],
+
+  "accessibility": {
+    "minContrastRatio": 4.5,
+    "focusOutline": "2px solid currentColor",
+    "focusOffset": "2px"
+  },
+
+  "voice": {
+    "language": "de-DE",
+    "addressing": "Sie-Form",
+    "examples": {
+      "cta": ["Kontaktieren Sie uns", "Jetzt Termin vereinbaren", "Mehr erfahren"],
+      "headlines": ["Pflege mit Herz und Verstand", "Ihr Partner für ambulante Pflege"],
+      "avoid": ["Du-Form", "Anglizismen", "generische Floskeln"]
+    }
+  }
+}
