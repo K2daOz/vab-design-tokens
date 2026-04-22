@@ -95,7 +95,9 @@
     "fontFamily": {
       "body": "Poppins",
       "heading": "Poppins",
-      "source": "Google Fonts"
+      "source": "Self-hosted (via @fontsource/poppins)",
+      "cssImport": "./casa-vitale/fonts.css",
+      "fontFiles": "./casa-vitale/fonts/"
     },
     "weights": {
       "heading": 500,
